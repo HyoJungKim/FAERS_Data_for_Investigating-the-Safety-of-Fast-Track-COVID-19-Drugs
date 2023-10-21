@@ -16,13 +16,13 @@ For further details and our analytical findings, please refer to our publication
 # Before using these datasets, please review the common recommendations and cautions provided by FAERS. Additionally, refer to our main article (linked above) and read the "Discussion" section for a comprehensive understanding of the limitations.
 
 ## Contents
-1. **Merged and Deduplicated Dataset** 
+1. [**Merged and Deduplicated Dataset**](https://www.dropbox.com/s/bf4kq575llnn1zy/1_merged_and_deduplicated_dataset.csv?dl=0) 
    - Observation Period: January 1, 2020, to June 30, 2022
    - Total Cases: 5,248,821 (with `caseid`)
    - Data Fields: `caseid`, `age_year`, `sex`, `event_dt`, `reporter_country`, `prod_ai`, `pt`
    - Source: This dataset results from joining the 'DEMO', 'DRUG', and 'REAC' tables originally found in the FAERS dataset.
 
-2. **Contingency Table**
+2. [**Contingency Table**](https://www.dropbox.com/scl/fi/y0fiewfy8ulr07zxh3j51/2_contigence-table_4_drugs.xlsx?rlkey=5v39s3d890q9z13guaeljs334&dl=0)
    
 - Derived from the first dataset for disproportionality analysis
 
@@ -31,11 +31,11 @@ For further details and our analytical findings, please refer to our publication
 | Reports with the suspected drug   |                   a                    |                    b                        |
 | Reports without the suspected drug |                   c                    |                    d                        |
 
-3. **Modified Dataset for Serious Outcome Analysis** 
+3. [**Modified Dataset for Serious Outcome Analysis**](https://www.dropbox.com/scl/fi/oidf2kku5k4xb64iqe63g/3_modified_dataset_for_serious_outcome_analysis.csv?rlkey=pz4bbexpt3oryo1qfwm5wsgds&dl=0)  
    - File name: `FAERS_outcome.csv`
 
 
-4. **Datasets for Subgroup Analyses within cases filtered by Covid19 indication** 
+4. [**Datasets for Subgroup Analyses within cases filtered by Covid19 indication**](https://www.dropbox.com/scl/fi/zw7aphdq3bvquz7crz9r7/4_subgroup_with_COVID19_INDICATION.xlsx?rlkey=sxz6hrcvzo4bycfdqtl2og11i&dl=0) 
    - Focus: Cases filtered by COVID-19 indication.
 
 
