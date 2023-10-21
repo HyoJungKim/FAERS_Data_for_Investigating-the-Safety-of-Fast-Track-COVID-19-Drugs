@@ -24,11 +24,12 @@ For further details and our analytical findings, please refer to our publication
 
 2. **Contingency Table**
    - Derived from the first dataset for disproportionality analysis
+|----------------------------|:----------------------------------------:|:-------------------------------------------:|
 |                            | Reports with the suspected adverse effect | Reports without the suspected adverse effect |
 |----------------------------|:----------------------------------------:|:-------------------------------------------:|
 | Reports with the suspected drug   |                   a                    |                    b                        |
 | Reports without the suspected drug |                   c                    |                    d                      |
-
+|----------------------------|:----------------------------------------:|:-------------------------------------------:|
 
 3. **Modified Dataset for Serious Outcome Analysis** 
    - File name: `FAERS_outcome.csv`
