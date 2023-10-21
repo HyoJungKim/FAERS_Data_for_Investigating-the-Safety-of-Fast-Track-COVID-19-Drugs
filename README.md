@@ -7,10 +7,10 @@ Given the COVID-19 pandemic's start in December 2019, our research specifically 
 
 For further details and our analytical findings, please refer to our publication.
 
-Link to main article:
++ Link to main article:
 [to be updated here]
 
-Citation information
++ Citation information
 [to be updated here]
 
 # Before using these datasets, please review the common recommendations and cautions provided by FAERS. Additionally, refer to our main article (linked above) and read the "Discussion" section for a comprehensive understanding of the limitations.
