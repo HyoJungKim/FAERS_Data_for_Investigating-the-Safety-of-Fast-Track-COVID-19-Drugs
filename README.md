@@ -32,21 +32,10 @@ Citation information
 
 3. **Modified Dataset for Serious Outcome Analysis** 
    - File name: `FAERS_outcome.csv`
-   ![image](https://github.com/HyoJungKim/FAERS_Data_for_Investigating-the-Safety-of-Fast-Track-COVID-19-Drugs/assets/25048006/ff5f93c0-73d0-4ccd-977e-56d5cfdc49ea)
 
-4. **Datasets for Subgroup Analyses** 
+
+4. **Datasets for Subgroup Analyses within cases filtered by Covid19 indication** 
    - Focus: Cases filtered by COVID-19 indication.
-
-1. Merged and deduplicated dataset with primary suspected drug data during observation periods(from January 1, 2020, to June 30, caseid N = 5,248,821)
- data table consists of these fields: caseid, age_year, sex, event_dt, reporter_country, prod_ai, pt
- which results in the join excution aming 'DEMO', 'DRUG', 'REAC' tables originally designated in FAERS dataset 
-
-3. Contigency table for disproportionality analysis
-   
-4. Modified dataset for serious outcome analysis (File name:FAERS_outcome.csv)
-![image](https://github.com/HyoJungKim/FAERS_Data_for_Investigating-the-Safety-of-Fast-Track-COVID-19-Drugs/assets/25048006/ff5f93c0-73d0-4ccd-977e-56d5cfdc49ea)
-
-5. Datasets for subgroup analyses within cases filtered by Covid19 indication
 
 
 ## Authors
