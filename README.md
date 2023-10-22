@@ -17,29 +17,43 @@ For further details and our analytical findings, please refer to our publication
 **Before using these datasets, please review the common recommendations and cautions provided by FAERS, which can foundable at [the FAERS website](https://www.fda.gov/drugs/questions-and-answers-fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-latest-quarterly-data-files).** 
 **Additionally, refer to our main article (linked above) and read the "Discussion" section for a comprehensive understanding of the limitations.**
 
-## Contents
-1. [**Merged and Deduplicated Dataset**](https://www.dropbox.com/s/bf4kq575llnn1zy/1_merged_and_deduplicated_dataset.csv?dl=0) 
+## Downloadable Materials
+1. [**Merged and Deduplicated Dataset**](https://www.dropbox.com/s/bf4kq575llnn1zy/1_merged_and_deduplicated_dataset.csv?dl=0) (926MB, csv file)
    - Observation Period: January 1, 2020, to June 30, 2022
    - Total Cases: 5,248,821 (with `caseid`)
    - Data Fields: `caseid`, `age_year`, `sex`, `event_dt`, `reporter_country`, `prod_ai`, `pt`
    - Source: This dataset results from joining the 'DEMO', 'DRUG', and 'REAC' tables originally found in the FAERS dataset.
 
-2. [**Contingency Table**](https://www.dropbox.com/scl/fi/y0fiewfy8ulr07zxh3j51/2_contigence-table_4_drugs.xlsx?rlkey=5v39s3d890q9z13guaeljs334&dl=0)
-   
-- Derived from the first dataset for disproportionality analysis
+2. [**Contingency Table**](https://www.dropbox.com/scl/fi/y0fiewfy8ulr07zxh3j51/2_contigence-table_4_drugs.xlsx?rlkey=5v39s3d890q9z13guaeljs334&dl=0) (359KB, xlsx file)
+   - Data rows: 8,321
+   - Data Fields: `prod_ai`, `pt`, `cnt_a`, `cnt_b`, `cnt_c`, `cnt_d`
+   - 'prod_ai' refers to the 'prod_ai' column in the 'DRUG' section of the FAERS quarterly file, which represents the generic name of the reported drug. On the other hand, 'pt' pertains to the 'pt' in the 'REAC' section of the FAERS quarterly file and stands for the 'preferred term' in MedDRA terminology.
+   - Derived from the first dataset for disproportionality analysis
 
 |                            | Reports with the suspected adverse effect | Reports without the suspected adverse effect |
 |----------------------------|:----------------------------------------:|:-------------------------------------------:|
 | Reports with the suspected drug   |                   a                    |                    b                        |
 | Reports without the suspected drug |                   c                    |                    d                        |
 
-3. [**Modified Dataset for Serious Outcome Analysis**](https://www.dropbox.com/scl/fi/oidf2kku5k4xb64iqe63g/3_modified_dataset_for_serious_outcome_analysis.csv?rlkey=pz4bbexpt3oryo1qfwm5wsgds&dl=0)  
+3. [**Modified Dataset for Serious Outcome Analysis**](https://www.dropbox.com/scl/fi/oidf2kku5k4xb64iqe63g/3_modified_dataset_for_serious_outcome_analysis.csv?rlkey=pz4bbexpt3oryo1qfwm5wsgds&dl=0) (804MB, csv file)  
    - File name: `FAERS_outcome.csv`
+   - Data Fields: `caseid`,`sex`,`age_year`,`pt`,`OUTC_COD`
+   - `OUTC_COD` refers the column in the 'OUTC' section of the FAERS quarterly file, and code and meaning text provided by FAERS is listed below.
 
+| CODE | MEANING_TEXT                                              |
+|------|-----------------------------------------------------------|
+| DE   | Death                                                     |
+| LT   | Life-Threatening                                          |
+| HO   | Hospitalization – Initial or Prolonged                    |
+| DS   | Disability                                                |
+| CA   | Congenital Anomaly                                        |
+| RI   | Required Intervention to Prevent Permanent Impairment/Damage |
+| OT   | Other Serious (Important Medical Event)                   |
 
-4. [**Datasets for Subgroup Analyses within cases filtered by Covid19 indication**](https://www.dropbox.com/scl/fi/zw7aphdq3bvquz7crz9r7/4_subgroup_with_COVID19_INDICATION.xlsx?rlkey=sxz6hrcvzo4bycfdqtl2og11i&dl=0) 
+4. [**Datasets for Subgroup Analyses within cases filtered by Covid19 indication**](https://www.dropbox.com/scl/fi/zw7aphdq3bvquz7crz9r7/4_subgroup_with_COVID19_INDICATION.xlsx?rlkey=sxz6hrcvzo4bycfdqtl2og11i&dl=0) (5 KB, xlsx file) 
    - Focus: Cases filtered by COVID-19 indication.
-
+   - Data Fields: `CaseID`,`prod_ai`,`sex`,`age_year`,`DE`,`LT`,`HO`,`DS`,`CA`,`RI`,`OT`
+   - age_year is preprocessed field by authors from data origne.
 
 ## Authors
 * Hyo Jung Kim†
