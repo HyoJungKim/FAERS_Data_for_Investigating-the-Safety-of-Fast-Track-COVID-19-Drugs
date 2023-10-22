@@ -1,5 +1,6 @@
 # FAERS Data for Investigating the Safety of Fast-Track COVID-19 Drugs
 A systematically processed dataset based on FAERS data, spanning from January 1, 2020, to June 30, 2022, for original research on the safety of Fast-Track COVID-19 drugs.
+We sincerely thank all the efforts in designing, collecting, refining, and sharing the voluntary reporting framework that made this research possible.
 
 # Data Source and data colletion period
 Our study used real-world data from the FAERS, a database designed for post-marketing safety surveillance. This database accumulates reports of adverse events and medication errors after the release of pharmaceuticals and therapeutic biologics. This FAERS data is publicly accessible via [the FAERS Quarterly Data Extract (QDE) releases](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html). 
