@@ -13,7 +13,8 @@ For further details and our analytical findings, please refer to our publication
 + Citation information
 [to be updated here]
 
-# Before using these datasets, please review the common recommendations and cautions provided by FAERS. Additionally, refer to our main article (linked above) and read the "Discussion" section for a comprehensive understanding of the limitations.
+**Before using these datasets, please review the common recommendations and cautions provided by FAERS, which can foundable at [the FAERS website](https://www.fda.gov/drugs/questions-and-answers-fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-latest-quarterly-data-files).** 
+**Additionally, refer to our main article (linked above) and read the "Discussion" section for a comprehensive understanding of the limitations.**
 
 ## Contents
 1. [**Merged and Deduplicated Dataset**](https://www.dropbox.com/s/bf4kq575llnn1zy/1_merged_and_deduplicated_dataset.csv?dl=0) 
