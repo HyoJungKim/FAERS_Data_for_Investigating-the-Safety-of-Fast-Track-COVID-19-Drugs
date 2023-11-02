@@ -59,7 +59,8 @@ For further details and our analytical findings, please refer to our publication
 * Hyo Jung Kim†
 * Jeong-Hwa Yoon†
 * Kyehwa Lee (Corresponding)
-†These authors contributed equally to this work
+
+These authors contributed equally to this work
 
 ## License
 This project is licensed under the terms of GNU GENERAL PUBLIC LICENSE(Version 3) by authors. 
