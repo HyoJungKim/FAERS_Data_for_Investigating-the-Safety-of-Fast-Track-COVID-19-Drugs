@@ -1,4 +1,4 @@
-![image](https://github.com/HyoJungKim/FAERS_Data_for_Investigating-the-Safety-of-Fast-Track-COVID-19-Drugs/assets/25048006/75996b52-f74e-401e-89ae-62b40af89387)# FAERS Data for Investigating the Safety of Fast-Track COVID-19 Drugs
+# FAERS Data for Investigating the Safety of Fast-Track COVID-19 Drugs
 A systematically processed dataset based on FAERS data, spanning from January 1, 2020, to June 30, 2022, for original research on the safety of Fast-Track COVID-19 drugs.
 We sincerely thank all the efforts in designing, collecting, refining, and sharing the voluntary reporting framework that made this research possible.
 
