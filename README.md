@@ -1,4 +1,4 @@
-# FAERS Data for Investigating the Safety of Fast-Track COVID-19 Drugs
+![image](https://github.com/HyoJungKim/FAERS_Data_for_Investigating-the-Safety-of-Fast-Track-COVID-19-Drugs/assets/25048006/75996b52-f74e-401e-89ae-62b40af89387)# FAERS Data for Investigating the Safety of Fast-Track COVID-19 Drugs
 A systematically processed dataset based on FAERS data, spanning from January 1, 2020, to June 30, 2022, for original research on the safety of Fast-Track COVID-19 drugs.
 We sincerely thank all the efforts in designing, collecting, refining, and sharing the voluntary reporting framework that made this research possible.
 
@@ -23,6 +23,9 @@ For further details and our analytical findings, please refer to our publication
    - Total Cases: 5,248,821 (with `caseid`)
    - Data Fields: `caseid`, `age_year`, `sex`, `event_dt`, `reporter_country`, `prod_ai`, `pt`
    - Source: This dataset results from joining the 'DEMO', 'DRUG', and 'REAC' tables originally found in the FAERS dataset.
+
+** Preprocessing **
+![image](https://github.com/HyoJungKim/FAERS_Data_for_Investigating-the-Safety-of-Fast-Track-COVID-19-Drugs/assets/25048006/fb644686-2785-43cf-876e-68f698c9b6fb)
 
 2. [**Contingency Table**](https://www.dropbox.com/scl/fi/y0fiewfy8ulr07zxh3j51/2_contigence-table_4_drugs.xlsx?rlkey=5v39s3d890q9z13guaeljs334&dl=0) (359KB, xlsx file)
    - Data rows: 8,321
